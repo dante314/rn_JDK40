@@ -1,0 +1,22 @@
+Instalamos la librería react navigation v.5.x, de una comunidad de 3ºs; contiene utilidades y los navegadores las usan para crear la estructura de navegación.
+>>> npm install                 /*se instalan un conjunto de dependencias y con expo las actualizamos, abajo*/
+    @react-navigation/native
+
+Instalamos el gestor de pilas "stack" para navegar entre screens. funciona como una pila de llamadas. el screen que vemos est'a en su cima
+>>> npm install
+    @react-navigation/stack
+
+Si se usa Expo, actualizamos dependéncias, expo elije la que es compatible según la version
+>>> expo install
+    react-native-gesture-handler
+    react-native-reanimated
+    react-native-screens
+    react-native-safe-area-context
+    @react-native-community/masked-view
+
+
+
+
+
+
+
